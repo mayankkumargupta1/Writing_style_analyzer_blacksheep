@@ -5,3 +5,4 @@ uvloop; platform_system != "Windows"
 essentials-configuration[full]
 MarkupSafe==3.0.2
 pydantic
+requests
