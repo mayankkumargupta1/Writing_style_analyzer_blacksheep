@@ -72,7 +72,7 @@ path:
 docker run --name mvcdemo --rm -p 8080:80 -e BG_COLOR='#fd7e14' -e APP_ROUTE_PREFIX='orange' mvcdemo
 ```
 
-Then navigate to [http://localhost:8080/orange/](http://localhost:8080/orange/).
+Then navigate to [http://localhost:8080/](http://localhost:8080/).
 
 To test using the image from Docker Hub:
 

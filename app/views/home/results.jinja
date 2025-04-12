@@ -1,0 +1,15 @@
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+    <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-lg mb-2">Corrected Text</h3>
+        <div class="p-4 bg-gray-50 rounded">{{ corrected_text }}</div>
+    </div>
+    
+    <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-lg mb-2">Improvements</h3>
+        <ul class="list-disc pl-5 space-y-1">
+            {% for improvement in improvements %}
+                <li>{{ improvement }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
